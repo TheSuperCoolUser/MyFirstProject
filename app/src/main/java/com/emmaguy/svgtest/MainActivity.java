@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-
+        // Что-то добавил
         Button button = (Button) findViewById(R.id.button);
         ToggleButton toogleButton = (ToggleButton) findViewById(R.id.toggleButton);
         button.setOnClickListener(this);
